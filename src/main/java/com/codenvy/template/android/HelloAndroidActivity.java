@@ -1,4 +1,4 @@
-package com.codenvy.template.android;
+package main.java.com.codenvy.template.android;
 
 import android.R;
 import android.app.Activity;
@@ -18,7 +18,7 @@ public class HelloAndroidActivity extends Activity {
     @Override
     public void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_main);
+        setContentView(R.layout.activity_list_item);
     }
 
     @Override
